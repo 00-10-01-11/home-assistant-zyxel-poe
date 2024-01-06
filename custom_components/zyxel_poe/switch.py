@@ -105,7 +105,7 @@ class ZyxelPoeSwitch(SwitchEntity):
 
     @property
     def name(self):
-        name = "{} port{}".format(self._host, self._port)
+        name = "{} port {}".format(self._host, self._port)
         return name
 
     @property
